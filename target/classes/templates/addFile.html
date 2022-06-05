@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ADd from file</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>File(testFile: userText.txt)</h1>
+<form action="#" th:action="@{/addfile-get}" method="post">
+    <p>Name of file: <input type="text"  name = "name"  /></p>
+
+    <p><input type="submit" value="Add user" />
+</form>
+</body>
+</html>
